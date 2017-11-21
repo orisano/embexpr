@@ -8,6 +8,7 @@ name = "pypi"
 [packages]
 
 six = "*"
+typing = "*"
 
 
 [dev-packages]
@@ -15,6 +16,7 @@ six = "*"
 yapf = "*"
 isort = "*"
 bpython = "*"
+pytest = "*"
 
 
 [requires]
