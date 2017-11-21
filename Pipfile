@@ -1,12 +1,22 @@
 [[source]]
+
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
+
 [packages]
+
 six = "*"
+
 
 [dev-packages]
 
+yapf = "*"
+isort = "*"
+bpython = "*"
+
+
 [requires]
+
 python_version = "2.7"
