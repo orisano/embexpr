@@ -1,7 +1,7 @@
 embexpr
 ============
-embedded python expression parser (for mainly easy DSL or config file)
-this library is prealpha. not recommended production use.
+| embedded python expression parser (for mainly easy DSL or config file).
+| this library is pre-alpha. not recommended production use.
 
 Getting Started
 ------------
