@@ -3,7 +3,7 @@ from __future__ import absolute_import, unicode_literals
 
 import ast
 import types
-import typing as ty
+from typing import Optional, Text
 
 import six
 
@@ -71,9 +71,9 @@ if six.PY34:
 
 
 class Expr(object):
-    def __init__(self, expr):  # type: (ty.Text) -> None
-        self.expr = expr  # type: ty.Text
-        self._cache = None  # type: ty.Optional[types.CodeType]
+    def __init__(self, expr):  # type: (Text) -> None
+        self.expr = expr  # type: Text
+        self._cache = None  # type: Optional[types.CodeType]
 
     def purge_cache(self):  # type: () -> None
         self._cache = None
@@ -90,7 +90,7 @@ class Expr(object):
         return eval(self.code, {b"__builtins__": builtins}, kwargs)
 
 
-def parse(text):  # type: (ty.Text) -> types.CodeType
+def parse(text):  # type: (Text) -> types.CodeType
     class CleansingNodeVisitor(ast.NodeVisitor):
         def generic_visit(self, node, inside_call=False):
             if type(node) not in SAFE_NODES:
