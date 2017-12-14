@@ -22,9 +22,9 @@ How to Use
   assert Expr('s.startswith("prefix_")')(s="prefix_suffix") == True
 
   try:
-    Expr('eval("1")')()
+      Expr('eval("1")')()
   except ParseError as e:
-    print(e)
+      print(e)
 
 
 Reference
