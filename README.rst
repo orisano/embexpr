@@ -1,5 +1,8 @@
 embexpr
 ============
+.. image:: https://travis-ci.org/orisano/embexpr.svg?branch=master
+    :target: https://travis-ci.org/orisano/embexpr
+
 | embedded python expression parser (for mainly easy DSL or config file).
 | this library is pre-alpha. not recommended to production use.
 
