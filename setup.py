@@ -16,7 +16,6 @@ AUTHOR = 'Nao YONASHIRO'
 
 REQUIRED = [
     'six',
-    'typing',
 ]
 
 here = os.path.abspath(os.path.dirname(__file__))

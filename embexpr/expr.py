@@ -3,13 +3,14 @@ from __future__ import absolute_import, unicode_literals
 
 import ast
 import types
-from typing import Optional, Text
 
 import six
-
 from six.moves import builtins
 
 from .error import ParseError
+
+if False:
+    from typing import Optional, Text
 
 CALL_WHITELIST = {
     "abs",
