@@ -107,9 +107,9 @@ def parse(text):  # type: (Text) -> types.CodeType
 
     cnv = CleansingNodeVisitor()
     try:
-        parsed_tree = ast.parse(text, mode=b"eval")
+        parsed_tree = ast.parse(text, mode="eval")
         cnv.visit(parsed_tree)
-        compiled = compile(parsed_tree, filename="<embexpr>", mode=b"eval")
+        compiled = compile(parsed_tree, filename="<embexpr>", mode="eval")
         return compiled
     except ParseError as e:
         raise e
