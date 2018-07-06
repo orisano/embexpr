@@ -123,5 +123,5 @@ def test_parse_eval():
 
 
 def test_parse_multi_bytes():
-    expr = embexpr.Expr("""s.startswith("こんにちは")""")
+    expr = embexpr.Expr("""s.startswith(u"こんにちは")""")
     assert expr(s="こんにちは世界")
