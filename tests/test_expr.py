@@ -120,3 +120,8 @@ def test_parse_eval():
         assert expr() != 1
     except embexpr.ParseError as e:
         pass
+
+
+def test_parse_multi_bytes():
+    expr = embexpr.Expr("""s.startswith("こんにちは")""")
+    assert expr(s="こんにちは世界")
