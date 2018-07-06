@@ -1,5 +1,6 @@
 # coding: utf-8
-from typing import Text
+if False:
+    from typing import Text
 
 
 class ParseError(Exception):
