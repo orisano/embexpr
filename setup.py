@@ -9,7 +9,7 @@ from shutil import rmtree
 from setuptools import Command, find_packages, setup
 
 NAME = 'embexpr'
-DESCRIPTION = 'embedded python expression parser'
+DESCRIPTION = 'safe embedded python expression parser'
 URL = 'https://github.com/orisano/embexpr'
 EMAIL = 'owan.orisano@gmail.com'
 AUTHOR = 'Nao YONASHIRO'

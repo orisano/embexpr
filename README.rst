@@ -3,7 +3,7 @@ embexpr
 .. image:: https://travis-ci.org/orisano/embexpr.svg?branch=master
     :target: https://travis-ci.org/orisano/embexpr
 
-| embedded python expression parser (for mainly easy DSL or config file).
+| safe embedded python expression parser (for mainly easy DSL or config file).
 
 Getting Started
 ------------
