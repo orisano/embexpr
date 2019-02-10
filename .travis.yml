@@ -4,8 +4,6 @@ python:
   - "3.5"
   - "3.6"
   - "3.7-dev"
-install:
-  - curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
-  - poetry install
 script:
+  - pip install -e .
   - pytest
