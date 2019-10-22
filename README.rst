@@ -28,11 +28,14 @@ How to Use
   except ParseError as e:
       print(e)
 
-
 Reference
 ------------
 https://github.com/ansible/ansible/blob/devel/lib/ansible/template/safe_eval.py
 http://stackoverflow.com/questions/12523516/using-ast-and-whitelists-to-make-pythons-eval-safe
+
+Author
+------------
+Nao YONASHIRO(@orisano)
 
 License
 ------------
