@@ -6,7 +6,7 @@ embexpr
 | safe embedded python expression parser (for mainly easy DSL or config file).
 
 Getting Started
-------------
+-----------------
 .. code:: bash
 
   pip install embexpr
