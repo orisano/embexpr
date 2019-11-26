@@ -2,6 +2,7 @@
 from __future__ import absolute_import, unicode_literals
 
 import ast
+import sys
 import types
 
 import six
@@ -69,6 +70,9 @@ SAFE_NODES = {
 }
 if six.PY34:
     SAFE_NODES.add(ast.NameConstant)
+
+if sys.version_info[0:2] >= (3, 6):
+    SAFE_NODES.add(ast.Constant)
 
 
 class Expr(object):
