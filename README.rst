@@ -2,6 +2,10 @@ embexpr
 ============
 .. image:: https://travis-ci.org/orisano/embexpr.svg?branch=master
     :target: https://travis-ci.org/orisano/embexpr
+.. image:: https://badge.fury.io/py/embexpr.svg
+    :target: https://badge.fury.io/py/embexpr
+.. image:: https://img.shields.io/pypi/pyversions/embexpr.svg
+    :target: https://pypi.org/project/embexpr/
 
 | safe embedded python expression parser (for mainly easy DSL or config file).
 
