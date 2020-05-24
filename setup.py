@@ -12,7 +12,7 @@ NAME = 'embexpr'
 DESCRIPTION = 'safe embedded python expression parser'
 URL = 'https://github.com/orisano/embexpr'
 EMAIL = 'owan.orisano@gmail.com'
-AUTHOR = 'Nao YONASHIRO'
+AUTHOR = 'Nao Yonashiro'
 
 REQUIRED = [
     'six',
