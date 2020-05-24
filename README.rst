@@ -39,7 +39,7 @@ http://stackoverflow.com/questions/12523516/using-ast-and-whitelists-to-make-pyt
 
 Author
 ------------
-Nao YONASHIRO(@orisano)
+Nao Yonashiro(@orisano)
 
 License
 ------------
