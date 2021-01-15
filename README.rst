@@ -1,7 +1,7 @@
 embexpr
 ============
-.. image:: https://travis-ci.org/orisano/embexpr.svg?branch=master
-    :target: https://travis-ci.org/orisano/embexpr
+.. image:: https://travis-ci.com/orisano/embexpr.svg?branch=master
+    :target: https://travis-ci.com/orisano/embexpr
 .. image:: https://badge.fury.io/py/embexpr.svg
     :target: https://badge.fury.io/py/embexpr
 .. image:: https://img.shields.io/pypi/pyversions/embexpr.svg
